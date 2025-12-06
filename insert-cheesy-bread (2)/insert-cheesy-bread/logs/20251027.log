@@ -1,0 +1,63 @@
+[2025-10-27 18:15:44.406171] [0x0000791ce27f9740] [info] Config file parsing succeeded: ../tests/server_config
+[2025-10-27 18:15:44.406488] [0x0000791ce27f9740] [info] Using port: 8080
+[2025-10-27 18:15:44.407796] [0x0000791ce27f9740] [info] Server is listening on port: 8080
+[2025-10-27 18:18:56.934253] [0x00007e2396514740] [info] Config file parsing succeeded: ../tests/server_config
+[2025-10-27 18:18:56.934682] [0x00007e2396514740] [info] Using port: 8080
+[2025-10-27 18:18:56.943975] [0x00007e2396514740] [error] Caught error:bind: Address already in use [system:98 at /usr/include/boost/asio/detail/reactive_socket_service.hpp:161 in function 'bind']
+[2025-10-27 18:19:37.913120] [0x00007e13f3553740] [info] Config file parsing succeeded: ../tests/server_config
+[2025-10-27 18:19:37.913298] [0x00007e13f3553740] [info] Using port: 8080
+[2025-10-27 18:19:37.913685] [0x00007e13f3553740] [error] Caught error:bind: Address already in use [system:98 at /usr/include/boost/asio/detail/reactive_socket_service.hpp:161 in function 'bind']
+[2025-10-27 18:20:01.636534] [0x00007c3c4058d740] [info] Config file parsing succeeded: ../tests/server_config
+[2025-10-27 18:20:01.636751] [0x00007c3c4058d740] [info] Using port: 8080
+[2025-10-27 18:20:01.637216] [0x00007c3c4058d740] [error] Caught error:bind: Address already in use [system:98 at /usr/include/boost/asio/detail/reactive_socket_service.hpp:161 in function 'bind']
+[2025-10-27 18:22:47.207421] [0x00007f9255c54740] [info] Config file parsing succeeded: ../tests/server_config
+[2025-10-27 18:22:47.207743] [0x00007f9255c54740] [info] Server is listening on port: 8000
+[2025-10-27 18:23:56.237201] [0x0000791ce27f9740] [info] Successfully accepted connection from 127.0.0.1:37024
+[2025-10-27 18:23:56.237668] [0x0000791ce27f9740] [info] Starting session from 127.0.0.1:37024
+[2025-10-27 18:23:56.238022] [0x0000791ce27f9740] [info] Request from 127.0.0.1:37024 is GET / HTTP/1.1
+Host: localhost:8080
+User-Agent: curl/8.5.0
+Accept: */*
+
+[2025-10-27 18:23:56.238244] [0x0000791ce27f9740] [info] Request contains 77 bytes
+[2025-10-27 18:23:56.238861] [0x0000791ce27f9740] [info] Client 127.0.0.1:37024 disconnected
+[2025-10-27 18:24:14.610454] [0x00007f9255c54740] [info] Terminating since received signal: 2
+[2025-10-27 18:48:31.060565] [0x000078b767eda740] [info] Config file parsing succeeded: ../tests/server_config
+[2025-10-27 18:48:31.061056] [0x000078b767eda740] [info] Server is listening on port: 8000
+[2025-10-27 18:48:38.236824] [0x0000791ce27f9740] [info] Successfully accepted connection from 127.0.0.1:37262
+[2025-10-27 18:48:38.237484] [0x0000791ce27f9740] [info] Starting session from 127.0.0.1:37262
+[2025-10-27 18:48:38.237857] [0x0000791ce27f9740] [info] Request from 127.0.0.1:37262 is GET / HTTP/1.1
+Host: localhost:8080
+User-Agent: curl/8.5.0
+Accept: */*
+
+[2025-10-27 18:48:38.237923] [0x0000791ce27f9740] [info] Request contains 77 bytes
+[2025-10-27 18:48:38.239103] [0x0000791ce27f9740] [info] Client 127.0.0.1:37262 disconnected
+[2025-10-27 18:48:49.822793] [0x000078b767eda740] [info] Terminating since received signal: 2
+[2025-10-27 19:01:40.519872] [0x00007c7ca6029740] [info] Config file parsing succeeded: ../tests/server_config
+[2025-10-27 19:01:40.520297] [0x00007c7ca6029740] [info] Server is listening on port: 8001
+[2025-10-27 19:01:51.115759] [0x00007c7ca6029740] [info] Terminating since received Ctrl + C:
+[2025-10-27 19:01:52.418654] [0x00007a903a6ac740] [info] Config file parsing succeeded: ../tests/server_config
+[2025-10-27 19:01:52.419202] [0x00007a903a6ac740] [info] Server is listening on port: 8001
+[2025-10-27 19:04:57.934725] [0x00007a903a6ac740] [info] Terminating since received Ctrl + C:
+[2025-10-27 19:05:08.887842] [0x000079ffea16c740] [info] Config file parsing succeeded: ../tests/server_config
+[2025-10-27 19:05:08.888310] [0x000079ffea16c740] [info] Server is listening on port: 8001
+[2025-10-27 19:05:48.473553] [0x000079ffea16c740] [info] Successfully accepted connection from 127.0.0.1:58370
+[2025-10-27 19:05:48.474307] [0x000079ffea16c740] [info] Starting session from 127.0.0.1:58370
+[2025-10-27 19:05:48.474473] [0x000079ffea16c740] [info] Request from 127.0.0.1:58370 is GET / HTTP/1.1
+Host: localhost:8001
+User-Agent: curl/8.5.0
+Accept: */*
+
+[2025-10-27 19:05:48.474522] [0x000079ffea16c740] [info] Request contains 77 bytes
+[2025-10-27 19:05:48.475253] [0x000079ffea16c740] [info] Client 127.0.0.1:58370 disconnected
+[2025-10-27 19:05:53.164534] [0x000079ffea16c740] [info] Successfully accepted connection from 127.0.0.1:45290
+[2025-10-27 19:05:53.164779] [0x000079ffea16c740] [info] Starting session from 127.0.0.1:45290
+[2025-10-27 19:05:53.165380] [0x000079ffea16c740] [info] Request from 127.0.0.1:45290 is GET / HTTP/1.1
+Host: localhost:8001
+User-Agent: curl/8.5.0
+Accept: */*
+
+[2025-10-27 19:05:53.165429] [0x000079ffea16c740] [info] Request contains 77 bytes
+[2025-10-27 19:05:53.166216] [0x000079ffea16c740] [info] Client 127.0.0.1:45290 disconnected
+[2025-10-27 19:05:58.556356] [0x000079ffea16c740] [info] Terminating since received Ctrl + C:

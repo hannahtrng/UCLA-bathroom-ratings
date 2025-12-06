@@ -1,0 +1,2 @@
+/usr/bin/ar qc libhandler_registry_lib.a CMakeFiles/handler_registry_lib.dir/src/handler_registry.cc.o
+/usr/bin/ranlib libhandler_registry_lib.a

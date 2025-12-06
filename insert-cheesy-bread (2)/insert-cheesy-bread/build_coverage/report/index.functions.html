@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html class="theme-green">
+
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <title>GCC Code Coverage Report</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="index.css"/>
+  </head>
+
+  <body>
+    <header>
+      <h1>GCC Code Coverage Report</h1>
+
+      <hr/>
+
+      <div class="summary">
+<div>
+  <table class="legend">
+    <tr>
+      <th scope="row">Directory:</th>
+      <td>./</td>
+    </tr>
+    <tr>
+      <th scope="row">Date:</th>
+      <td>2025-11-05 03:57:02</td>
+    </tr>
+  </table>
+</div>
+
+<div>
+  <table class="coverage">
+    <tr>
+      <th></th>
+      <th scope="col">Exec</th>
+      <th scope="col">Total</th>
+      <th scope="col">Coverage</th>
+    </tr>
+    <tr>
+      <th scope="row">Lines:</th>
+      <td>555</td>
+      <td>600</td>
+      <td class="coverage-high">92.5%</td>
+    </tr>
+    <tr>
+      <th scope="row">Functions:</th>
+      <td>56</td>
+      <td>56</td>
+      <td class="coverage-high">100.0%</td>
+    </tr>
+    <tr>
+      <th scope="row">Branches:</th>
+      <td>842</td>
+      <td>1671</td>
+      <td class="coverage-low">50.4%</td>
+    </tr>
+  </table>
+</div>
+      </div>
+
+      <hr/>
+    </header>
+
+    <nav>
+    </nav>
+
+    <main>
+<table class="listOfFunctions">
+  <tr>
+    <th>Function (File:Line)</th>
+    <th>Call count</th>
+    <th>Block coverage</th>
+  </tr>
+  <tr><td><a href="index.request_handler_echo.cc.400d815b91f75f120cf3f2f20de9c85c.html#l8">EchoRequestHandler::handle_request(Request const&amp;, std::__cxx11::basic_string&lt;char, std::char_traits&lt;char&gt;, std::allocator&lt;char&gt; &gt; const&amp;) (src/request_handler_echo.cc:8)</a></td><td>called 8 times, returned 8 times</td><td>64.0%</td></tr>
+  <tr><td><a href="index.request_handler_file.h.386ef7fb64ba6e85d514b266c40b5cc3.html#l12">FileRequestHandler::FileRequestHandler(std::__cxx11::basic_string&lt;char, std::char_traits&lt;char&gt;, std::allocator&lt;char&gt; &gt; const&amp;, std::__cxx11::basic_string&lt;char, std::char_traits&lt;char&gt;, std::allocator&lt;char&gt; &gt; const&amp;) (include/request_handler_file.h:12)</a></td><td>called 7 times, returned 7 times</td><td>62.0%</td></tr>
+  <tr><td><a href="index.request_handler_file.cc.4a1c8d1164616ac74953e0260094296c.html#l93">FileRequestHandler::get_content_type(std::__cxx11::basic_string&lt;char, std::char_traits&lt;char&gt;, std::allocator&lt;char&gt; &gt; const&amp;) (src/request_handler_file.cc:93)</a></td><td>called 3 times, returned 3 times</td><td>35.0%</td></tr>
+  <tr><td><a href="index.request_handler_file.cc.4a1c8d1164616ac74953e0260094296c.html#l14">FileRequestHandler::handle_request(Request const&amp;, std::__cxx11::basic_string&lt;char, std::char_traits&lt;char&gt;, std::allocator&lt;char&gt; &gt; const&amp;) (src/request_handler_file.cc:14)</a></td><td>called 4 times, returned 4 times</td><td>47.0%</td></tr>
+  <tr><td><a href="index.request_handler_file.cc.4a1c8d1164616ac74953e0260094296c.html#l82">FileRequestHandler::read_file(std::__cxx11::basic_string&lt;char, std::char_traits&lt;char&gt;, std::allocator&lt;char&gt; &gt; const&amp;) (src/request_handler_file.cc:82)</a></td><td>called 3 times, returned 3 times</td><td>52.0%</td></tr>
+  <tr><td><a href="index.config_parser.cc.31098c8ab4b6825e0940ff3e3cd9edc0.html#l22">NginxConfig::ToString[abi:cxx11](int) (src/config_parser.cc:22)</a></td><td>called 6 times, returned 6 times</td><td>74.0%</td></tr>
+  <tr><td><a href="index.config_parser.cc.31098c8ab4b6825e0940ff3e3cd9edc0.html#l87">NginxConfigParser::CanFollowWithToken(NginxConfigParser::TokenType) (src/config_parser.cc:87)</a></td><td>called 222 times, returned 222 times</td><td>80.0%</td></tr>
+  <tr><td><a href="index.config_parser.cc.31098c8ab4b6825e0940ff3e3cd9edc0.html#l71">NginxConfigParser::IsTokenDelimiter(char) (src/config_parser.cc:71)</a></td><td>called 1331 times, returned 1331 times</td><td>100.0%</td></tr>
+  <tr><td><a href="index.config_parser.cc.31098c8ab4b6825e0940ff3e3cd9edc0.html#l82">NginxConfigParser::IsValidTokenPredecessor(NginxConfigParser::TokenType) (src/config_parser.cc:82)</a></td><td>called 116 times, returned 116 times</td><td>100.0%</td></tr>
+  <tr><td><a href="index.config_parser.cc.31098c8ab4b6825e0940ff3e3cd9edc0.html#l77">NginxConfigParser::IsWhitespace(char) (src/config_parser.cc:77)</a></td><td>called 885 times, returned 885 times</td><td>100.0%</td></tr>
+  <tr><td><a href="index.config_parser.h.6cb65369f88b6ece59d243cb8f38faca.html#l30">NginxConfigParser::NginxConfigParser() (include/config_parser.h:30)</a></td><td>called 10 times, returned 10 times</td><td>100.0%</td></tr>
+  <tr><td><a href="index.config_parser.cc.31098c8ab4b6825e0940ff3e3cd9edc0.html#l281">NginxConfigParser::Parse(char const*, NginxConfig*) (src/config_parser.cc:281)</a></td><td>called 24 times, returned 24 times</td><td>65.0%</td></tr>
+  <tr><td><a href="index.config_parser.cc.31098c8ab4b6825e0940ff3e3cd9edc0.html#l198">NginxConfigParser::Parse(std::istream*, NginxConfig*) (src/config_parser.cc:198)</a></td><td>called 51 times, returned 51 times</td><td>79.0%</td></tr>
+  <tr><td><a href="index.config_parser.cc.31098c8ab4b6825e0940ff3e3cd9edc0.html#l96">NginxConfigParser::ParseToken(std::istream*, std::__cxx11::basic_string&lt;char, std::char_traits&lt;char&gt;, std::allocator&lt;char&gt; &gt;*) (src/config_parser.cc:96)</a></td><td>called 427 times, returned 427 times</td><td>99.0%</td></tr>
+  <tr><td><a href="index.config_parser.cc.31098c8ab4b6825e0940ff3e3cd9edc0.html#l55">NginxConfigParser::TokenTypeAsString(NginxConfigParser::TokenType) (src/config_parser.cc:55)</a></td><td>called 75 times, returned 75 times</td><td>100.0%</td></tr>
+  <tr><td><a href="index.config_parser.cc.31098c8ab4b6825e0940ff3e3cd9edc0.html#l30">NginxConfigStatement::ToString[abi:cxx11](int) (src/config_parser.cc:30)</a></td><td>called 7 times, returned 7 times</td><td>88.0%</td></tr>
+  <tr><td><a href="index.request_dispatcher.cc.57171bde096996c18f586d4a76667ff2.html#l123">RequestDispatcher::CreateHandler(LocationConfig const&amp;) (src/request_dispatcher.cc:123)</a></td><td>called 29 times, returned 29 times</td><td>65.0%</td></tr>
+  <tr><td><a href="index.request_dispatcher.cc.57171bde096996c18f586d4a76667ff2.html#l14">RequestDispatcher::ExtractServerConfig(NginxConfig const&amp;, short) (src/request_dispatcher.cc:14)</a></td><td>called 14 times, returned 14 times</td><td>77.0%</td></tr>
+  <tr><td><a href="index.request_dispatcher.cc.57171bde096996c18f586d4a76667ff2.html#l106">RequestDispatcher::FindBestMatch(std::__cxx11::basic_string&lt;char, std::char_traits&lt;char&gt;, std::allocator&lt;char&gt; &gt; const&amp;) const (src/request_dispatcher.cc:106)</a></td><td>called 25 times, returned 25 times</td><td>81.0%</td></tr>
+  <tr><td><a href="index.request_dispatcher.cc.57171bde096996c18f586d4a76667ff2.html#l143">RequestDispatcher::GetHandler(std::__cxx11::basic_string&lt;char, std::char_traits&lt;char&gt;, std::allocator&lt;char&gt; &gt; const&amp;) (src/request_dispatcher.cc:143)</a></td><td>called 25 times, returned 25 times</td><td>42.0%</td></tr>
+  <tr><td><a href="index.request_dispatcher.cc.57171bde096996c18f586d4a76667ff2.html#l75">RequestDispatcher::InitFromServerConfig(ServerConfig const&amp;) (src/request_dispatcher.cc:75)</a></td><td>called 25 times, returned 25 times</td><td>62.0%</td></tr>
+  <tr><td><a href="index.request_dispatcher.cc.57171bde096996c18f586d4a76667ff2.html#l10">RequestDispatcher::RequestDispatcher() (src/request_dispatcher.cc:10)</a></td><td>called 27 times, returned 27 times</td><td>100.0%</td></tr>
+  <tr><td><a href="index.request_dispatcher.cc.57171bde096996c18f586d4a76667ff2.html#l12">RequestDispatcher::~RequestDispatcher() (src/request_dispatcher.cc:12)</a></td><td>called 22 times, returned 22 times</td><td>100.0%</td></tr>
+  <tr><td><a href="index.request_handler.h.6b75ebb892f3861ee99ae3ee9260530a.html#l31">RequestHandler::~RequestHandler() (include/request_handler.h:31)</a></td><td>called 23 times, returned 23 times</td><td>100.0%</td></tr>
+  <tr><td><a href="index.request_parser.cc.45123ad8d7efdcc613c2679afe26b1c1.html#l8">RequestParser::Parse(std::__cxx11::basic_string&lt;char, std::char_traits&lt;char&gt;, std::allocator&lt;char&gt; &gt; const&amp;, Request&amp;) (src/request_parser.cc:8)</a></td><td>called 40 times, returned 40 times</td><td>85.0%</td></tr>
+  <tr><td><a href="index.request_parser.cc.45123ad8d7efdcc613c2679afe26b1c1.html#l84">RequestParser::ParseHeaderLine(std::__cxx11::basic_string&lt;char, std::char_traits&lt;char&gt;, std::allocator&lt;char&gt; &gt; const&amp;, Request&amp;) (src/request_parser.cc:84)</a></td><td>called 19 times, returned 19 times</td><td>79.0%</td></tr>
+  <tr><td><a href="index.request_parser.cc.45123ad8d7efdcc613c2679afe26b1c1.html#l52">RequestParser::ParseRequestLine(std::__cxx11::basic_string&lt;char, std::char_traits&lt;char&gt;, std::allocator&lt;char&gt; &gt; const&amp;, Request&amp;) (src/request_parser.cc:52)</a></td><td>called 36 times, returned 36 times</td><td>81.0%</td></tr>
+  <tr><td><a href="index.request_parser.h.57d9887187b352638d38669a80309c4c.html#l15">RequestParser::RequestParser() (include/request_parser.h:15)</a></td><td>called 15 times, returned 15 times</td><td>100.0%</td></tr>
+  <tr><td><a href="index.response_builder.cc.15c8c2ba0c625acd66cf19b3d7ed1ff5.html#l34">ResponseBuilder::BadRequest(std::__cxx11::basic_string&lt;char, std::char_traits&lt;char&gt;, std::allocator&lt;char&gt; &gt; const&amp;) (src/response_builder.cc:34)</a></td><td>called 2 times, returned 2 times</td><td>56.0%</td></tr>
+  <tr><td><a href="index.response_builder.cc.15c8c2ba0c625acd66cf19b3d7ed1ff5.html#l16">ResponseBuilder::BuildResponse(std::__cxx11::basic_string&lt;char, std::char_traits&lt;char&gt;, std::allocator&lt;char&gt; &gt; const&amp;, std::__cxx11::basic_string&lt;char, std::char_traits&lt;char&gt;, std::allocator&lt;char&gt; &gt; const&amp;, std::__cxx11::basic_string&lt;char, std::char_traits&lt;char&gt;, std::allocator&lt;char&gt; &gt; const&amp;) (src/response_builder.cc:16)</a></td><td>called 1 time, returned 1 time</td><td>100.0%</td></tr>
+  <tr><td><a href="index.response_builder.cc.15c8c2ba0c625acd66cf19b3d7ed1ff5.html#l30">ResponseBuilder::Forbidden(std::__cxx11::basic_string&lt;char, std::char_traits&lt;char&gt;, std::allocator&lt;char&gt; &gt; const&amp;) (src/response_builder.cc:30)</a></td><td>called 2 times, returned 2 times</td><td>56.0%</td></tr>
+  <tr><td><a href="index.response_builder.cc.15c8c2ba0c625acd66cf19b3d7ed1ff5.html#l3">ResponseBuilder::FormatResponse(std::__cxx11::basic_string&lt;char, std::char_traits&lt;char&gt;, std::allocator&lt;char&gt; &gt; const&amp;, std::__cxx11::basic_string&lt;char, std::char_traits&lt;char&gt;, std::allocator&lt;char&gt; &gt; const&amp;, std::__cxx11::basic_string&lt;char, std::char_traits&lt;char&gt;, std::allocator&lt;char&gt; &gt; const&amp;) (src/response_builder.cc:3)</a></td><td>called 33 times, returned 33 times</td><td>53.0%</td></tr>
+  <tr><td><a href="index.response_builder.cc.15c8c2ba0c625acd66cf19b3d7ed1ff5.html#l38">ResponseBuilder::InternalServerError(std::__cxx11::basic_string&lt;char, std::char_traits&lt;char&gt;, std::allocator&lt;char&gt; &gt; const&amp;) (src/response_builder.cc:38)</a></td><td>called 2 times, returned 2 times</td><td>56.0%</td></tr>
+  <tr><td><a href="index.response_builder.cc.15c8c2ba0c625acd66cf19b3d7ed1ff5.html#l42">ResponseBuilder::MethodNotAllowed(std::__cxx11::basic_string&lt;char, std::char_traits&lt;char&gt;, std::allocator&lt;char&gt; &gt; const&amp;) (src/response_builder.cc:42)</a></td><td>called 2 times, returned 2 times</td><td>56.0%</td></tr>
+  <tr><td><a href="index.response_builder.cc.15c8c2ba0c625acd66cf19b3d7ed1ff5.html#l26">ResponseBuilder::NotFound(std::__cxx11::basic_string&lt;char, std::char_traits&lt;char&gt;, std::allocator&lt;char&gt; &gt; const&amp;) (src/response_builder.cc:26)</a></td><td>called 3 times, returned 3 times</td><td>56.0%</td></tr>
+  <tr><td><a href="index.response_builder.cc.15c8c2ba0c625acd66cf19b3d7ed1ff5.html#l22">ResponseBuilder::Ok(std::__cxx11::basic_string&lt;char, std::char_traits&lt;char&gt;, std::allocator&lt;char&gt; &gt; const&amp;, std::__cxx11::basic_string&lt;char, std::char_traits&lt;char&gt;, std::allocator&lt;char&gt; &gt; const&amp;) (src/response_builder.cc:22)</a></td><td>called 21 times, returned 21 times</td><td>64.0%</td></tr>
+  <tr><td><a href="index.server_main_utils.h.6aee809d2326740ac73004f0d08f211c.html#l17">ServerInitResult::is_valid() const (include/server_main_utils.h:17)</a></td><td>called 5 times, returned 5 times</td><td>86.0%</td></tr>
+  <tr><td><a href="index.server_main_utils.cc.2fdf4e39babf7f753196607f50338cff.html#l67">initialize_dispatcher(ServerConfig const&amp;) (src/server_main_utils.cc:67)</a></td><td>called 7 times, returned 7 times</td><td>39.0%</td></tr>
+  <tr><td><a href="index.server_main_utils.cc.2fdf4e39babf7f753196607f50338cff.html#l30">initialize_from_args(int, char**, short, std::ostream&amp;) (src/server_main_utils.cc:30)</a></td><td>called 10 times, returned 10 times</td><td>52.0%</td></tr>
+  <tr><td><a href="index.server_main_utils.cc.2fdf4e39babf7f753196607f50338cff.html#l22">load_config_from_file(char const*, NginxConfig*) (src/server_main_utils.cc:22)</a></td><td>called 11 times, returned 11 times</td><td>100.0%</td></tr>
+  <tr><td><a href="index.server_main.cc.8c2f7fb6553220e22640ffda0e6cb46e.html#l25">main (src/server_main.cc:25)</a></td><td>called 5 times, returned 5 times</td><td>41.0%</td></tr>
+  <tr><td><a href="index.server_main.cc.8c2f7fb6553220e22640ffda0e6cb46e.html#l45">main::{lambda(boost::system::error_code const&amp;, int)#1}::operator()(boost::system::error_code const&amp;, int) const (src/server_main.cc:45)</a></td><td>called 5 times, returned 5 times</td><td>67.0%</td></tr>
+  <tr><td><a href="index.server.cc.520f4156117065a960e3087182acf4b4.html#l27">server::handle_accept(session*, boost::system::error_code const&amp;) (src/server.cc:27)</a></td><td>called 5 times, returned 5 times</td><td>39.0%</td></tr>
+  <tr><td><a href="index.server.cc.520f4156117065a960e3087182acf4b4.html#l11">server::server(boost::asio::io_context&amp;, short, std::shared_ptr&lt;RequestDispatcher&gt;) (src/server.cc:11)</a></td><td>called 5 times, returned 5 times</td><td>58.0%</td></tr>
+  <tr><td><a href="index.server.cc.520f4156117065a960e3087182acf4b4.html#l19">server::start_accept() (src/server.cc:19)</a></td><td>called 10 times, returned 10 times</td><td>60.0%</td></tr>
+  <tr><td><a href="index.session.cc.a39713a7caf4db9d7b5a9a5e778339b6.html#l62">session::HandleError() (src/session.cc:62)</a></td><td>called 13 times, returned 13 times</td><td>100.0%</td></tr>
+  <tr><td><a href="index.session.cc.a39713a7caf4db9d7b5a9a5e778339b6.html#l67">session::SendResponse() (src/session.cc:67)</a></td><td>called 12 times, returned 12 times</td><td>83.0%</td></tr>
+  <tr><td><a href="index.session.cc.a39713a7caf4db9d7b5a9a5e778339b6.html#l54">session::StartAsyncRead() (src/session.cc:54)</a></td><td>called 27 times, returned 27 times</td><td>83.0%</td></tr>
+  <tr><td><a href="index.session.cc.a39713a7caf4db9d7b5a9a5e778339b6.html#l83">session::handle_read(boost::system::error_code const&amp;, unsigned long) (src/session.cc:83)</a></td><td>called 27 times, returned 27 times</td><td>36.0%</td></tr>
+  <tr><td><a href="index.session.cc.a39713a7caf4db9d7b5a9a5e778339b6.html#l130">session::handle_write(boost::system::error_code const&amp;) (src/session.cc:130)</a></td><td>called 13 times, returned 13 times</td><td>100.0%</td></tr>
+  <tr><td><a href="index.session.cc.a39713a7caf4db9d7b5a9a5e778339b6.html#l16">session::session(boost::asio::io_context&amp;, std::shared_ptr&lt;RequestDispatcher&gt;) (src/session.cc:16)</a></td><td>called 21 times, returned 21 times</td><td>71.0%</td></tr>
+  <tr><td><a href="index.session.cc.a39713a7caf4db9d7b5a9a5e778339b6.html#l21">session::socket() (src/session.cc:21)</a></td><td>called 27 times, returned 27 times</td><td>100.0%</td></tr>
+  <tr><td><a href="index.session.cc.a39713a7caf4db9d7b5a9a5e778339b6.html#l74">session::start() (src/session.cc:74)</a></td><td>called 12 times, returned 12 times</td><td>68.0%</td></tr>
+  <tr><td><a href="index.server_main_utils.cc.2fdf4e39babf7f753196607f50338cff.html#l18">validate_arguments(int) (src/server_main_utils.cc:18)</a></td><td>called 13 times, returned 13 times</td><td>100.0%</td></tr>
+  <tr><td><a href="index.server_main_utils.cc.2fdf4e39babf7f753196607f50338cff.html#l99">writeLogToConsole() (src/server_main_utils.cc:99)</a></td><td>called 5 times, returned 5 times</td><td>73.0%</td></tr>
+  <tr><td><a href="index.server_main_utils.cc.2fdf4e39babf7f753196607f50338cff.html#l80">writeLogToFile(std::__cxx11::basic_string&lt;char, std::char_traits&lt;char&gt;, std::allocator&lt;char&gt; &gt; const&amp;) (src/server_main_utils.cc:80)</a></td><td>called 5 times, returned 5 times</td><td>70.0%</td></tr>
+</table>
+
+      <hr/>
+    </main>
+
+    <footer>
+      Generated by: <a href="http://gcovr.com/en/7.0">GCOVR (Version 7.0)</a>
+    </footer>
+  </body>
+</html>

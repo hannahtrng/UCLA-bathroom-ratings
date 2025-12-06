@@ -1,0 +1,17 @@
+server {
+  listen 8080;
+
+  location /static {
+    handler StaticHandler;
+    root /usr/src/projects/insert-cheesy-bread/assets;
+  }
+
+  location /echo {
+    handler EchoHandler;
+  }
+  
+  location / {
+    handler NotFoundHandler;
+  }
+}
+

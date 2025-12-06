@@ -1,0 +1,83 @@
+[2025-10-28 22:12:26.712588] [0x00007d5dd0754740] [info] Config file parsing succeeded: ../tests/server_config
+[2025-10-28 22:12:26.713076] [0x00007d5dd0754740] [info] Extracted listen port: 8080
+[2025-10-28 22:12:26.713161] [0x00007d5dd0754740] [info] Extracted location: / -> echo
+[2025-10-28 22:12:26.713197] [0x00007d5dd0754740] [info] Extracted server config: port=8080, locations=1
+[2025-10-28 22:12:26.713231] [0x00007d5dd0754740] [info] Initializing request dispatcher from server config
+[2025-10-28 22:12:26.713277] [0x00007d5dd0754740] [info] Initialized handler 'echo' for location: /
+[2025-10-28 22:12:26.713304] [0x00007d5dd0754740] [info] Dispatcher initialized with 1 handlers
+[2025-10-28 22:12:26.713332] [0x00007d5dd0754740] [info] Request dispatcher initialized successfully with 1 routes
+[2025-10-28 22:12:26.713629] [0x00007d5dd0754740] [info] Server initialization complete
+[2025-10-28 22:12:26.714084] [0x00007d5dd0754740] [info] Server is listening on port: 8080
+[2025-10-28 22:13:27.918829] [0x00007d5dd0754740] [info] Successfully accepted connection from 127.0.0.1:52302
+[2025-10-28 22:13:27.919668] [0x00007d5dd0754740] [info] Starting session from 127.0.0.1:52302
+[2025-10-28 22:13:27.919773] [0x00007d5dd0754740] [info] Request from 127.0.0.1:52302 is GET / HTTP/1.1
+Host: localhost:8080
+User-Agent: curl/8.5.0
+Accept: */*
+
+[2025-10-28 22:13:27.919809] [0x00007d5dd0754740] [info] Request contains 77 bytes
+[2025-10-28 22:13:27.919894] [0x00007d5dd0754740] [info] Processing request for URL: /
+[2025-10-28 22:13:27.921761] [0x00007d5dd0754740] [info] Client 127.0.0.1:52302 disconnected
+[2025-10-28 22:15:49.619129] [0x00007d5dd0754740] [info] Terminating since received Ctrl + C:
+[2025-10-28 22:23:37.381329] [0x00007cdbdcf0b740] [info] Config file parsing succeeded: ../tests/server_config
+[2025-10-28 22:23:37.381708] [0x00007cdbdcf0b740] [info] Extracted listen port: 8080
+[2025-10-28 22:23:37.381782] [0x00007cdbdcf0b740] [info] Extracted location: /static -> file
+[2025-10-28 22:23:37.381871] [0x00007cdbdcf0b740] [info] Extracted location: /echo -> echo
+[2025-10-28 22:23:37.381905] [0x00007cdbdcf0b740] [info] Extracted server config: port=8080, locations=2
+[2025-10-28 22:23:37.381937] [0x00007cdbdcf0b740] [info] Initializing request dispatcher from server config
+[2025-10-28 22:23:37.381981] [0x00007cdbdcf0b740] [info] Initialized handler 'file (root: /home/teresalee2/cs130/insert-cheesy-bread/assets)' for location: /static
+[2025-10-28 22:23:37.382016] [0x00007cdbdcf0b740] [info] Initialized handler 'echo' for location: /echo
+[2025-10-28 22:23:37.382059] [0x00007cdbdcf0b740] [info] Dispatcher initialized with 2 handlers
+[2025-10-28 22:23:37.382101] [0x00007cdbdcf0b740] [info] Request dispatcher initialized successfully with 2 routes
+[2025-10-28 22:23:37.382214] [0x00007cdbdcf0b740] [info] Server initialization complete
+[2025-10-28 22:23:37.382472] [0x00007cdbdcf0b740] [info] Server is listening on port: 8080
+[2025-10-28 22:24:02.196731] [0x00007cdbdcf0b740] [info] Successfully accepted connection from 127.0.0.1:37092
+[2025-10-28 22:24:02.196891] [0x00007cdbdcf0b740] [info] Starting session from 127.0.0.1:37092
+[2025-10-28 22:24:02.196994] [0x00007cdbdcf0b740] [info] Request from 127.0.0.1:37092 is GET /static/index.html HTTP/1.1
+Host: localhost:8080
+User-Agent: curl/8.5.0
+Accept: */*
+
+[2025-10-28 22:24:02.197383] [0x00007cdbdcf0b740] [info] Request contains 94 bytes
+[2025-10-28 22:24:02.197475] [0x00007cdbdcf0b740] [info] Processing request for URL: /static/index.html
+[2025-10-28 22:24:02.197526] [0x00007cdbdcf0b740] [info] FileHandler: base_dir=/home/teresalee2/cs130/insert-cheesy-bread/assets, url_path=index.html, requested_path=/home/teresalee2/cs130/insert-cheesy-bread/assets/index.html
+[2025-10-28 22:24:02.197597] [0x00007cdbdcf0b740] [warning] File does not exist: /home/teresalee2/cs130/insert-cheesy-bread/assets/index.html
+[2025-10-28 22:24:02.200024] [0x00007cdbdcf0b740] [info] Client 127.0.0.1:37092 disconnected
+[2025-10-28 22:25:13.818479] [0x00007cdbdcf0b740] [info] Successfully accepted connection from 127.0.0.1:41076
+[2025-10-28 22:25:13.818844] [0x00007cdbdcf0b740] [info] Starting session from 127.0.0.1:41076
+[2025-10-28 22:25:13.819502] [0x00007cdbdcf0b740] [info] Request from 127.0.0.1:41076 is GET /static/index.html HTTP/1.1
+Host: localhost:8080
+User-Agent: curl/8.5.0
+Accept: */*
+
+[2025-10-28 22:25:13.819591] [0x00007cdbdcf0b740] [info] Request contains 94 bytes
+[2025-10-28 22:25:13.819671] [0x00007cdbdcf0b740] [info] Processing request for URL: /static/index.html
+[2025-10-28 22:25:13.819714] [0x00007cdbdcf0b740] [info] FileHandler: base_dir=/home/teresalee2/cs130/insert-cheesy-bread/assets, url_path=index.html, requested_path=/home/teresalee2/cs130/insert-cheesy-bread/assets/index.html
+[2025-10-28 22:25:13.819758] [0x00007cdbdcf0b740] [warning] File does not exist: /home/teresalee2/cs130/insert-cheesy-bread/assets/index.html
+[2025-10-28 22:25:13.821190] [0x00007cdbdcf0b740] [info] Client 127.0.0.1:41076 disconnected
+[2025-10-28 22:26:57.680163] [0x00007cdbdcf0b740] [info] Terminating since received Ctrl + C:
+[2025-10-28 22:27:41.804134] [0x00007c14019f2740] [info] Config file parsing succeeded: ../tests/server_config
+[2025-10-28 22:27:41.804755] [0x00007c14019f2740] [info] Extracted listen port: 8080
+[2025-10-28 22:27:41.804840] [0x00007c14019f2740] [info] Extracted location: /static -> file
+[2025-10-28 22:27:41.805199] [0x00007c14019f2740] [info] Extracted location: /echo -> echo
+[2025-10-28 22:27:41.805251] [0x00007c14019f2740] [info] Extracted server config: port=8080, locations=2
+[2025-10-28 22:27:41.805296] [0x00007c14019f2740] [info] Initializing request dispatcher from server config
+[2025-10-28 22:27:41.805343] [0x00007c14019f2740] [info] Initialized handler 'file (root: /usr/src/projects/insert-cheesy-bread/assets)' for location: /static
+[2025-10-28 22:27:41.805382] [0x00007c14019f2740] [info] Initialized handler 'echo' for location: /echo
+[2025-10-28 22:27:41.805407] [0x00007c14019f2740] [info] Dispatcher initialized with 2 handlers
+[2025-10-28 22:27:41.805432] [0x00007c14019f2740] [info] Request dispatcher initialized successfully with 2 routes
+[2025-10-28 22:27:41.805458] [0x00007c14019f2740] [info] Server initialization complete
+[2025-10-28 22:27:41.805691] [0x00007c14019f2740] [info] Server is listening on port: 8080
+[2025-10-28 22:27:44.901068] [0x00007c14019f2740] [info] Successfully accepted connection from 127.0.0.1:34814
+[2025-10-28 22:27:44.901262] [0x00007c14019f2740] [info] Starting session from 127.0.0.1:34814
+[2025-10-28 22:27:44.901390] [0x00007c14019f2740] [info] Request from 127.0.0.1:34814 is GET /static/index.html HTTP/1.1
+Host: localhost:8080
+User-Agent: curl/8.5.0
+Accept: */*
+
+[2025-10-28 22:27:44.901472] [0x00007c14019f2740] [info] Request contains 94 bytes
+[2025-10-28 22:27:44.901613] [0x00007c14019f2740] [info] Processing request for URL: /static/index.html
+[2025-10-28 22:27:44.901697] [0x00007c14019f2740] [info] FileHandler: base_dir=/usr/src/projects/insert-cheesy-bread/assets, url_path=index.html, requested_path=/usr/src/projects/insert-cheesy-bread/assets/index.html
+[2025-10-28 22:27:44.902002] [0x00007c14019f2740] [info] FileHandler: canonical requested_path=/usr/src/projects/insert-cheesy-bread/assets/index.html, canonical base_dir=/usr/src/projects/insert-cheesy-bread/assets
+[2025-10-28 22:27:44.902810] [0x00007c14019f2740] [info] Client 127.0.0.1:34814 disconnected
+[2025-10-28 22:28:14.774933] [0x00007c14019f2740] [info] Terminating since received Ctrl + C:

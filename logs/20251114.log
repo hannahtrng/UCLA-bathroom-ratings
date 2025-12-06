@@ -1,0 +1,12 @@
+[2025-11-14 18:10:29.888006] [0x00007fffff2172c0] [error] Error: invalid arguments
+[2025-11-14 18:10:54.385543] [0x00007fffff2172c0] [info] Config file parsing succeeded: ../server_config_files/example.conf
+[2025-11-14 18:10:54.393835] [0x00007fffff2172c0] [info] Extracted listen port: 80
+[2025-11-14 18:10:54.395846] [0x00007fffff2172c0] [info] Extracted location: /echo -> EchoHandler
+[2025-11-14 18:10:54.396960] [0x00007fffff2172c0] [info] Extracted location: /static -> StaticHandler
+[2025-11-14 18:10:54.397335] [0x00007fffff2172c0] [info] Extracted location: /api -> ApiHandler
+[2025-11-14 18:10:54.397426] [0x00007fffff2172c0] [info] Extracted server config: port=80, locations=3
+[2025-11-14 18:10:54.399004] [0x00007fffff2172c0] [info] Initializing request dispatcher from server config
+[2025-11-14 18:10:54.399353] [0x00007fffff2172c0] [info] Dispatcher initialized with 3 locations
+[2025-11-14 18:10:54.399444] [0x00007fffff2172c0] [info] Request dispatcher initialized successfully with 3 routes
+[2025-11-14 18:10:54.399548] [0x00007fffff2172c0] [info] Server initialization complete
+[2025-11-14 18:10:54.409052] [0x00007fffff2172c0] [error] Caught error: bind: Address already in use [system:98 at /usr/include/boost/asio/detail/reactive_socket_service.hpp:161 in function 'bind']

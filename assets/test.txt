@@ -1,0 +1,10 @@
+This is a plain text file served by the static file handler.
+
+If you can read this, your web server is working correctly!
+
+Server: Insert Cheesy Bread
+Handler: FileRequestHandler
+Content-Type: text/plain
+
+✅ Static file serving is operational!
+

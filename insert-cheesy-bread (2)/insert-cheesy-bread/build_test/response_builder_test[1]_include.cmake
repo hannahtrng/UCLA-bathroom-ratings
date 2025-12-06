@@ -1,5 +1,0 @@
-if(EXISTS "/usr/src/projects/insert-cheesy-bread/build_test/response_builder_test[1]_tests.cmake")
-  include("/usr/src/projects/insert-cheesy-bread/build_test/response_builder_test[1]_tests.cmake")
-else()
-  add_test(response_builder_test_NOT_BUILT response_builder_test_NOT_BUILT)
-endif()

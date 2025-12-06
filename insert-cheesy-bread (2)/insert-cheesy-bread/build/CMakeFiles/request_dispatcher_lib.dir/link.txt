@@ -1,2 +1,0 @@
-/usr/bin/ar qc librequest_dispatcher_lib.a CMakeFiles/request_dispatcher_lib.dir/src/request_dispatcher.cc.o
-/usr/bin/ranlib librequest_dispatcher_lib.a

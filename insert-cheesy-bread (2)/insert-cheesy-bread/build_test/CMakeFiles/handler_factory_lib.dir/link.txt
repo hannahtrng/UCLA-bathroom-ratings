@@ -1,2 +1,0 @@
-/usr/bin/ar qc libhandler_factory_lib.a CMakeFiles/handler_factory_lib.dir/src/handler_factory.cc.o
-/usr/bin/ranlib libhandler_factory_lib.a

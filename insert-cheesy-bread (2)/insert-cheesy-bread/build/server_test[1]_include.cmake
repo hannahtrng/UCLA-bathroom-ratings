@@ -1,5 +1,0 @@
-if(EXISTS "/usr/src/projects/insert-cheesy-bread/build/server_test[1]_tests.cmake")
-  include("/usr/src/projects/insert-cheesy-bread/build/server_test[1]_tests.cmake")
-else()
-  add_test(server_test_NOT_BUILT server_test_NOT_BUILT)
-endif()

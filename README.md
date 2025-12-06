@@ -1,6 +1,7 @@
 # Insert-Cheesy-Bread Repository
 ## Introduction
 **Authors:** Mikey Choi, Teresa Lee, Travis Nguyen, and Hannah Truong 
+
 Welcome to our repository! 'insert-cheesy-bread' is a simple HTTP/1.1 server built for CS130 that emphasizes clarity, modularity, and testability. Routes are defined in an nginx-style config and dispatched via longest-prefix matching to short-lived request handlers created by factories. The codebase follows the class Common API, so contributors can drop in new handlers (e.g., 'EchoHandler', 'StaticHandler', 'NotFoundHandler') without touching the core server. Everything is wired through CMake, covered by unit/integration tests, and organized for quick experimentation and review. 
 
 ## Prerequisites

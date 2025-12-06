@@ -1,0 +1,5 @@
+if(EXISTS "/usr/src/projects/insert-cheesy-bread/build_coverage/request_parser_test[1]_tests.cmake")
+  include("/usr/src/projects/insert-cheesy-bread/build_coverage/request_parser_test[1]_tests.cmake")
+else()
+  add_test(request_parser_test_NOT_BUILT request_parser_test_NOT_BUILT)
+endif()

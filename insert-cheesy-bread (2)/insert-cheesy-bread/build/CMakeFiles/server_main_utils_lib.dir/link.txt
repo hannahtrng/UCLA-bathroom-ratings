@@ -1,0 +1,2 @@
+/usr/bin/ar qc libserver_main_utils_lib.a CMakeFiles/server_main_utils_lib.dir/src/server_main_utils.cc.o
+/usr/bin/ranlib libserver_main_utils_lib.a
